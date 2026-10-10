@@ -1,0 +1,13 @@
+{
+  "environment": "testnet",
+  "simulation": false,
+  "network_genesis_hash": "",
+  "wallet_address": "",
+  "session_id": "",
+  "transaction_id": "",
+  "settlement_block_hash": "",
+  "model_id": "",
+  "compute_spend": "",
+  "settled_at": "",
+  "source_url": ""
+}

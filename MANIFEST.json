@@ -1,0 +1,23 @@
+{
+  "flop_agent.py": "f00e22e22ab69d2254a33bb716b3e50082820c50e18c8f8b3abb4ff9a1aedbd4",
+  "flop_activity.py": "852a0ecdbf5ad9035d48aafe501ef2287ff52b385207c0429084b4eacad28460",
+  "flop_watch.py": "bfa5f1f566d86e6ab267bbac665d86dc237733aa863d10ce0194b3908a1f2e4a",
+  "flop_tasks.py": "f797da0a50cd5eac2a677638373854d7aaf22fcf01667a595b91b039e9b161cd",
+  "test_flop_agent.py": "1934c715c4150563d7b7f99c805f356a6f3a4cadda1e9aa91ce8f4dc2ac1ba91",
+  "test_flop_activity.py": "0839eb755c2bc6aa85e42ff7f8ff09a2557914db9c46c36e5d5cfdf251446e7a",
+  "test_flop_readiness.py": "f2da538a1e20b6448439ae575fb6fa68ac4f0aaca8c18e6b467832cf990488bc",
+  "PUBLIC_GUIDE_JA.md": "dcb2080e34895df06f357a8edff3b7da2bfc85a4544401c95cde6c14b968a794",
+  "requirements.txt": "e694c9f1e9be3eab5524d866c26eb518df953b371ea708a174e200f22e623c07",
+  "templates/receipt.json": "2ccd674bf73925ce36a2d4ead629120c54dcbac9520d2d6e2ea7118583e689f5",
+  "contributions/AGENT_UNLOCK_REPORT.md": "938529dade177bcb20e75d15f8bcff3d25457a7f6af4c8511781cf6ddd68d346",
+  "contributions/PR_191_REVIEW.md": "7763122b4e47acf696544047d7758eb8011f8c63aa15ed90b2899f07552ac19a",
+  "contributions/pr-191-assertions.patch": "19b072127144b38edfbb40e999b1002719be47acdd31c72b6ab9e49d898bf530",
+  "contributions/review_191_repro.py": "9de99eadeeed05969ac214114065d1298c336d3ff36eaa89cf5f8d839f9fc599",
+  "build_release.py": "4824a53d97d10757ebe467dc929a86e37563f777ab4e31ca9656722009fdb48f",
+  "README_PUBLIC.md": "6b8fdb3bb2ddc6c5efc9ece4240921e841e057be170753b914e2332494381078",
+  ".gitignore": "94c0abc7045b572a916ddc78887afbd447b377c66b19cbe99f512dae8526ca52",
+  "contributions/ATTRIBUTION.md": "a11165b71fbaab2e7ccca70bd3aad4a08ae2a48217c674b5187411f51727d8cc",
+  "contributions/UPSTREAM_LICENSE": "9a199b2f98908456e0714c49a9d0ae7b01d43eb85c0005a040a974db5faa982a",
+  "contributions/UPSTREAM_NOTICE": "526c7eb0e9086a44125bab1455a58225e097c2980f32b05de377a1ea25c02563",
+  "README.md": "6b8fdb3bb2ddc6c5efc9ece4240921e841e057be170753b914e2332494381078"
+}

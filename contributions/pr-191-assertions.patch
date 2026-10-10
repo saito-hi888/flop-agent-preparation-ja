@@ -1,0 +1,19 @@
+--- a/tests/http/test_rooms.py
++++ b/tests/http/test_rooms.py
+@@ -1184,10 +1184,14 @@
+     edge_row = row_for("CHAT_EDGE_CACHE_SECONDS")
+     assert "stale-while-revalidate" in edge_row, edge_row
+     # A multiple, so the row has to name the multiplier rather than a fixed number.
+-    assert polled // seconds in {int(n) for n in re.findall(r"\d+", edge_row)}, edge_row
++    multiplier = re.search(r"stale-while-revalidate` at (\d+) times", edge_row)
++    assert multiplier, edge_row
++    assert polled == seconds * int(multiplier.group(1)), edge_row
+ 
+     static = stale_of(client.get("/llms.txt").headers["cache-control"])
+     static_row = row_for("CHAT_STATIC_CACHE_SECONDS")
+     assert "stale-while-revalidate" in static_row, static_row
+     # Flat, so the row has to name the seconds themselves.
+-    assert static in {int(n) for n in re.findall(r"\d+", static_row)}, static_row
++    flat_seconds = re.search(r"stale-while-revalidate` is a flat (\d+)", static_row)
++    assert flat_seconds, static_row
++    assert static == int(flat_seconds.group(1)), static_row
